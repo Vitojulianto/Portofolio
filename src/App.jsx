@@ -36,6 +36,7 @@ function App() {
           <img src="/icons/react.svg" alt="React" className="h-10" />
           <img src="/icons/tailwindcss.svg" alt="Tailwind CSS" className="h-10" />
           <img src="/icons/vite.svg" alt="Vite" className="h-10" />
+          <img src="/icons/tensorflow.svg" alt="TensorFlow" className="h-10" />
         </div>
       </section>
 
@@ -48,8 +49,8 @@ function App() {
             description="Simple Todo app (Create and Delete) and anime searcher with API using React and localStorage."
             demoLink="https://first-react-app-project-4u2q.vercel.app/"
             githubLink="https://github.com/Vitojulianto/FirstReactAppProject"
-            
-            
+
+
           />
           <ProjectCard
             img="/firstproject.jpg"
@@ -57,8 +58,8 @@ function App() {
             description="Fetches data from API with add-to-cart feature."
             demoLink="https://second-project-movie-store-app-ar8m.vercel.app/"
             githubLink="https://github.com/Vitojulianto/Second-Project---Movie-Store-App"
-            
-            
+
+
           />
           <ProjectCard
             img="/secondproject.jpg"
@@ -66,8 +67,8 @@ function App() {
             description="The next version of previous Movie Store with a better UI and UX. Includes cart indicator, toastify, and global state handling."
             demoLink="https://third-react-app-movie-store-2-0-jhf5.vercel.app/"
             githubLink="https://github.com/Vitojulianto/ThirdReactApp---MovieStore-2.0"
-            
-            
+
+
           />
           <ProjectCard
             img="/chatbot.png"
@@ -75,7 +76,7 @@ function App() {
             description="A simple chatbot using dummy data"
             demoLink="https://ask-miku-simple-chatbot-y7d8.vercel.app/"
             githubLink="https://github.com/Vitojulianto/AskMiku---Simple-Chatbot"
-            
+
           />
           <ProjectCard
             img="/admindashboard.png"
@@ -83,7 +84,15 @@ function App() {
             description="A simple dashboard where we can check the total of users, products, and customers. There is a calender to show the activity that we do"
             demoLink="https://simple-admin-dashboard-nine.vercel.app/"
             githubLink="https://github.com/Vitojulianto/Simple-Admin-Dashboard"
-            
+
+          />
+          <ProjectCard
+            img="/animaldetector.png"
+            title="Animal Detector"
+            description="A simple project where we can show an animal picture (cat,dog, and bird) to the webcam, and the system will try to guess what animal is that"
+            demoLink="https://animal-detector.vercel.app/"
+            githubLink="https://github.com/Vitojulianto/Anima-Detector.git"
+
           />
         </div>
       </main>
@@ -94,6 +103,8 @@ function App() {
           <a href="/Vito Julianto-resume.pdf" download className="ml-4 bg-blue-500 text-white px-6 py-2 rounded-xl shadow hover:bg-blue-600 transition">Download CV</a>
         </div>
       </section>
+
+
 
       <Footer />
     </div>
